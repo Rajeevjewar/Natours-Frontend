@@ -1,6 +1,15 @@
-.grid-test {
-  background-color: $color-primary;
-  color: $color-white;
-  padding: 10rem;
-  text-align: center;
+// .grid-test {
+//   background-color: $color-primary;
+//   color: $color-white;
+//   padding: 10rem;
+//    text-align: center;
+// }
+.row {
+  max-width: 114rem;
+  background-color: rgba($color-black, 0.03);
+  margin: 0 auto;
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
 }
