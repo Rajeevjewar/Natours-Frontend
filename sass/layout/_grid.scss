@@ -1,6 +1,5 @@
 .row {
   max-width: 114rem;
-  background-color: rgba($color-black, 0.03);
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -14,7 +13,6 @@
   // * means the all the class names which contains col-
   // $ means the elements which are ends with col- class name.
   [class^="col-"] {
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {
